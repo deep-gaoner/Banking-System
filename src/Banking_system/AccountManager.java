@@ -27,4 +27,9 @@ public class AccountManager {
         System.out.print("enter security pin ");
         String security_pin = scan.next();
     }
+    public void getBalance(long account_number)
+    {
+        System.out.print("enter security pin ");
+        String security_pin = scan.nextLine();
+    }
 }
