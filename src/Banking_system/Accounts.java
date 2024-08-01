@@ -4,8 +4,7 @@ import java.util.Scanner;
 
 public class Accounts {
     Scanner scan = new Scanner(System.in);
-    public long openAccount(String email)
-    {
+    public long openAccount(String email) {
         System.out.print("Enter full name ");
         String fullName = scan.nextLine();
         System.out.print("Enter initial amount ");
